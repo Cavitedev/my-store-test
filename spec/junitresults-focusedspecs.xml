@@ -1,19 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites disabled="0" errors="0" failures="2" tests="1" time="20.015">
- <testsuite name="focused specs" timestamp="2022-11-16T10:39:42" hostname="localhost" time="20.015" errors="0" tests="1" skipped="0" disabled="0" failures="2">
-  <testcase classname="focused specs" name="Hacer compra 2 productos" time="20.01">
-   <failure type="exception" message="Unhandled promise rejection: TypeError: selector.startsWith is not a function"><![CDATA[at getQueryHandlerAndSelector (D:\Proyectos\Angular\puppeteer-test\node_modules\puppeteer-core\lib\cjs\puppeteer\common\QueryHandler.js:184:30)
-    at ElementHandle.$ (D:\Proyectos\Angular\puppeteer-test\node_modules\puppeteer-core\lib\cjs\puppeteer\common\ElementHandle.js:117:100)
-    at ElementHandle.$eval (D:\Proyectos\Angular\puppeteer-test\node_modules\puppeteer-core\lib\cjs\puppeteer\common\ElementHandle.js:160:42)
-    at D:\Proyectos\Angular\puppeteer-test\spec\sample.spec.js:108:43
-    at processTicksAndRejections (node:internal/process/task_queues:96:5)]]>
-   </failure>
-   <failure type="exception" message="Error: Timeout - Async function did not complete within 20000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)"><![CDATA[at <Jasmine>
-    at listOnTimeout (node:internal/timers:559:17)
-    at processTimers (node:internal/timers:502:7)]]>
-   </failure>
-  </testcase>
+<testsuites disabled="0" errors="0" failures="0" tests="4" time="7.987">
+ <testsuite name="focused specs" timestamp="2022-11-17T10:37:20" hostname="localhost" time="7.987" errors="0" tests="4" skipped="0" disabled="0" failures="0">
+  <testcase classname="focused specs" name="Compartir producto" time="2.573" />
+  <testcase classname="focused specs" name="Notificar producto" time="1.681" />
+  <testcase classname="focused specs" name="Ver precios de envío" time="1.777" />
+  <testcase classname="focused specs" name="Hacer compra de 2 productos" time="1.953" />
  </testsuite>
- <testsuite name="focused specs.Puppeteer+Jasmine+Jasmine Reporter sample" timestamp="2022-11-16T10:40:02" hostname="localhost" time="0" errors="0" tests="0" skipped="0" disabled="0" failures="0">
+ <testsuite name="focused specs.Puppeteer+Jasmine+Jasmine Reporter sample" timestamp="2022-11-17T10:37:28" hostname="localhost" time="0" errors="0" tests="0" skipped="0" disabled="0" failures="0">
  </testsuite>
 </testsuites>
